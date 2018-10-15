@@ -1,0 +1,389 @@
+    1  ls
+    2  nano
+    3  nano test.py
+    4  ls
+    5  cd ..
+    6  ls
+    7  cd ..
+    8  ls
+    9  mkdir share
+   10  ls
+   11  cd pbf
+   12  cd ..
+   13  cd 2018/
+   14  ls
+   15  ls
+   16  ls
+   17  ls
+   18  cd ..
+   19  ls
+   20  cd 2018
+   21  ls
+   22  ls
+   23  s
+   24  ls
+   25  cd ..
+   26  ls
+   27  cd share
+   28  cd ..
+   29  cd ..
+   30  ls
+   31  ls
+   32  cd .
+   33  cd kraken
+   34  cd KRAKEN
+   35  ls
+   36  pwd
+   37  pwd
+   38  cd ..
+   39  pwd
+   40  sudo
+   41  sudo su 
+   42  pwd
+   43  cd .
+   44  cd ..
+   45  ls
+   46  cd 2018
+   47  ls
+   48  ls
+   49  ls
+   50  ls
+   51  touch test
+   52  conda
+   53  python3
+   54  python
+   55  conda 
+   56  homebrew
+   57  conda
+   58  hostname
+   59  ls
+   60  cd ..
+   61  ls
+   62  cd efi
+   63  ls
+   64  cd ehi
+   65  ls
+   66  cd download
+   67  cd Downloads
+   68  ls
+   69  ls -l
+   70  chmod a+r Anaconda3-5.3.0-MacOSX-x86_64.pkg 
+   71  chmod a+r Anaconda3-5.3.0-MacOSX-x86_64.pkg 
+   72  chmod a+rx Anaconda3-5.3.0-MacOSX-x86_64.pkg 
+   73  ls -l
+   74  pwd
+   75  ls
+   76  cd ..
+   77  ls
+   78  ls -l
+   79  ls -l Downloads/
+   80  cd ~/Downloads/
+   81  ls
+   82  cp Anaconda3-5.3.0-MacOSX-x86_64.pkg ~/.
+   83  sudo su - admin
+   84  sudo su  admin
+   85  echo $path
+   86  echo $PATH
+   87  echo $PATH
+   88  ls
+   89  cd ..
+   90  cd ..
+   91  ls
+   92  cd ..
+   93  cd ..
+   94  ls
+   95  cd ..
+   96  ls
+   97  cd ..
+   98  ls
+   99  cd ..
+  100  ls
+  101  ls
+  102  cd ..
+  103  ls
+  104  cd ..
+  105  ls
+  106  cd users
+  107  ls
+  108  ls ..
+  109  ls ..
+  110  cd ..
+  111  cd ..
+  112   cd..
+  113  cd ..
+  114  ls
+  115  cd ..
+  116  ls
+  117  cd ..
+  118  ls
+  119   cd ..
+  120  ls
+  121  cd ..
+  122  ls
+  123  ls
+  124  cd bin
+  125  cd/bin/
+  126  ls -l
+  127  ls -;t
+  128  ls -lt
+  129  man ls
+  130  ls -lt | head
+  131  man head
+  132  ..
+  133  ../
+  134  /..
+  135  cd ..
+  136  cd ~
+  137  pwd
+  138  cd ..
+  139  ls -l
+  140  ls
+  141  cd ehi
+  142  mkdir problemsets
+  143  cd problemsets
+  144  wgethttps://raw.githubusercontent.com/prog4biol/pfb2018/master/files/sequences.nt.fa 
+  145  man wget
+  146  wget https://raw.githubusercontent.com/prog4biol/pfb2018/master/files/sequences.nt.fa 
+  147  ls
+  148  wc -cl sequences.nt.fa 
+  149  head sequences.nt.fa 
+  150  man head
+  151  man tail
+  152  wc -cl sequences.nt.fa 
+  153  head -1 sequences.nt.fa 
+  154  tail -n 3 sequences.nt.fa 
+  155  man grep
+  156  grep '>' sequences.nt.fa | wc -l
+  157  more sequences.nt.fa sequences.nt.fa 
+  158  man mv
+  159  man mv
+  160  mv sequences.nt.fa cancer_genes.fasta
+  161  ls
+  162  wget https://raw.githubusercontent.com/prog4biol/pfb2018/master/files/cuffdiff.txt
+  163  ls
+  164  head -3 cuffdiff.txt 
+  165  man sort
+  166  sort -h
+  167  sort --help
+  168  sort cuffdiff.txt > sort1.txt
+  169  head sort1.txt
+  170  sort -n -10 cuffdiff.txt 
+  171  sort -10 cuffdiff.txt > sort2.txt
+  172  man sort
+  173  man sort
+  174  sort -k 10 cuffdiff.txt > sorted.cuff.out 
+  175  head sorted.cuff.out 
+  176  tail sorted.cuff.out 
+  177  sort -k 10 -v cuffdiff.txt > sorted.cuff.out 
+  178  man sort
+  179  sort -k 10 -r cuffdiff.txt > sorted.cuff.out 
+  180  head sorted.cuff.out 
+  181  head -100 sorted.cuff.out > top100.sorted.cuffdiff.out
+  182  man head
+  183  man grep
+  184  man awk
+  185  ls
+  186  man cut
+  187  cut -f 1 top100.sorted.cuffdiff.out > differentially.expressed.genes.txt
+  188  head differentially.expressed.genes.txt 
+  189  sort differentially.expressed.genes.txt | uniq > differentially.expressed.genes-sort.txt
+  190  head differentially.expressed.genes-sort.txt 
+  191  cut -f 1 top100.sorted.cuffdiff.out | sort | uniq > differentially.expressed.genes.txt
+  192  head differentially.expressed.genes
+  193  head differentially.expressed.genes.txt 
+  194  uniq -d top100.sorted.cuffdiff.out 
+  195  ls
+  196  man rm
+  197  ls
+  198  rm sort?.txt
+  199  ls
+  200  man sort
+  201  sort -r -k10 -n cuffdiff.txt > sorted.cuff.out 
+  202  tail sorted.cuff.out 
+  203  head sorted.cuff.out 
+  204  show sorted.cuff.out 
+  205  man bash
+  206  open top100.sorted.cuffdiff.out 
+  207  view top100.sorted.cuffdiff.out 
+  208  grep > cancer_genes.fasta 
+  209  grep '>' cancer_genes.fasta 
+  210  view cancer_genes.fasta 
+  211  head cancer_genes.fasta 
+  212  ls
+  213  wget  https://raw.githubusercontent.com/prog4biol/pfb2018/master/files/sequences.nt.fa
+  214  mv sequences.nt.fa > cancer_genes.fasta
+  215  mv sequences.nt.fa cancer_genes.fasta
+  216  head cancer_genes.fasta 
+  217  ls
+  218  rm differentially.expressed.genes-sort.txt 
+  219  ls
+  220  head differentially.expressed.genes.txt 
+  221  cd ..
+  222  ls
+  223  pwd
+  224  cd ..
+  225  ls | wc -l
+  226  ls -F
+  227  grep '
+  228  :q
+  229  :q!
+  230  -h
+  231  ls
+  232  ls
+  233  cd problemsets/
+  234  ls
+  235  mkdir PS1
+  236  rm dir PS1
+  237  rmdir PS1
+  238  mkdir PS1 | mv *.txt
+  239  ls
+  240  cd PS1 | ls
+  241  cd PS1
+  242  ls
+  243  ls -aF
+  244  cd ..
+  245  ls -aF
+  246  wget https://raw.githubusercontent.com/prog4biol/pfb2018/master/files/cuffdiff.txt
+  247  ls
+  248  ls
+  249  cd ..
+  250  ls
+  251  cd Public/
+  252  ls
+  253  cd ..
+  254  mkdir PFB_git
+  255  cd PFB_git/
+  256  mkdir PFB_problemsets
+  257  cd PFB_problemsets/
+  258  echo "# PFB_Problemsets" >> README.md
+  259  git init
+  260  git add README.md
+  261  git commit -m "first commit"
+  262  git remote add origin https://github.com/hillericm/PFB_Problemsets.git
+  263  git push -u origin master
+  264  nano git_exercises.txt
+  265  nano git_exercises.txt
+  266  git add git_exercises.txt 
+  267  git commit -m 'test file creation for git repository'
+  268  git push origin master
+  269  pwd
+  270  cd ..
+  271  git clone https://github.com/prog4biol/pfb2018.git
+  272  cd PFB_problemsets/
+  273  git clone https://github.com/prog4biol/pfb2018.git
+  274  ls
+  275  cd ..
+  276  ls
+  277  ls
+  278  cd PFB_problemsets/
+  279  ls
+  280  rm pfb2018/
+  281  rmdir pfb2018/
+  282  ls
+  283  man del
+  284  cd ..
+  285  git status
+  286  cd PFB_problemsets/
+  287  git status
+  288  cd ..
+  289  git pull
+  290  cd PFB_problemsets/
+  291  git pull
+  292  cd pfb2018/
+  293  ls
+  294  cd ../..
+  295  git init
+  296  git pull
+  297  cd PFB_problemsets/
+  298  ls
+  299  git pull
+  300  man mv
+  301  mv -h
+  302  cd ..
+  303  cd ..
+  304  ls
+  305  cd problemsets/
+  306  ls
+  307  mv cuffdiff.txt PS1/
+  308  ls
+  309  cd PS1/
+  310  ls
+  311  cd ..
+  312  mv differentially.expressed.genes.txt PS1/
+  313  mv sorted.cuff.out PS1/
+  314  mv top100.sorted.cuffdiff.out PS1/
+  315  ls
+  316  mv cancer_genes.fasta PS1/
+  317  ls
+  318  pwd
+  319  mv PS1 ../PFB_git/PFB_Problemsets
+  320  ls
+  321  cd ..
+  322  ls
+  323  cd PFB_git/
+  324  ls
+  325  cd PFB_problemsets/
+  326  ls
+  327  mv git_exercises.txt git_exercises2.txt
+  328  ls
+  329  read git_exercises2.txt 
+  330  mv git_exercises.txt
+  331  mv git_exercises2.txt git_exercises.txt
+  332  ls
+  333  git status
+  334  mv PS1 Unix01
+  335  ls
+  336  git status
+  337  git add Unix01/
+  338  git commit -m 'Adding Unix PS1 - 10/15/18'
+  339  git push
+  340  mkdir files
+  341  mv Unix01/cancer_genes.fasta files/
+  342  ls
+  343  cd files
+  344  ls
+  345  cd ..
+  346  git add files/cancer_genes.fasta 
+  347  git commit - 'adding cancer_genes.fasta'
+  348  q
+  349  ls
+  350  git add files/cancer_genes.fasta 
+  351  git commit -m 'adding cancer_genes.fasta'
+  352  git push
+  353  cd files
+  354  ls
+  355  nano mysequences.txt
+  356  ls
+  357  git add mysequences.txt 
+  358  git commit -m 'adding mysequence.txt'
+  359  git push
+  360  mkdir fastas
+  361  man cp
+  362  ls
+  363  cd ..
+  364  ls
+  365  git status
+  366  ls
+  367  cd files
+  368  cd fastas
+  369  ls
+  370  cd ..
+  371  ls
+  372  mv cancer_genes.fasta fastas/
+  373  ls
+  374  cd fastas/
+  375  ls
+  376  git status
+  377  git add fastas/
+  378  cd ..
+  379  ls
+  380  git push
+  381  git status
+  382  git add fastas/
+  383  git commit -m 'adding fastas directory'
+  384  git push
+  385  man history
+  386  history -h
+  387  man history
+  388  print history > ~/unixBasics.history.txt
+  389  history > ~/unixBasics.history.txt
