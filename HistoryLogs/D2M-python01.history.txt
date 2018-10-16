@@ -1,0 +1,500 @@
+   90  head sorted.cuff.out 
+   91  tail sorted.cuff.out 
+   92  sort -k 10 -v cuffdiff.txt > sorted.cuff.out 
+   93  man sort
+   94  sort -k 10 -r cuffdiff.txt > sorted.cuff.out 
+   95  head sorted.cuff.out 
+   96  head -100 sorted.cuff.out > top100.sorted.cuffdiff.out
+   97  man head
+   98  man grep
+   99  man awk
+  100  ls
+  101  man cut
+  102  cut -f 1 top100.sorted.cuffdiff.out > differentially.expressed.genes.txt
+  103  head differentially.expressed.genes.txt 
+  104  sort differentially.expressed.genes.txt | uniq > differentially.expressed.genes-sort.txt
+  105  head differentially.expressed.genes-sort.txt 
+  106  cut -f 1 top100.sorted.cuffdiff.out | sort | uniq > differentially.expressed.genes.txt
+  107  head differentially.expressed.genes
+  108  head differentially.expressed.genes.txt 
+  109  uniq -d top100.sorted.cuffdiff.out 
+  110  ls
+  111  man rm
+  112  ls
+  113  rm sort?.txt
+  114  ls
+  115  man sort
+  116  sort -r -k10 -n cuffdiff.txt > sorted.cuff.out 
+  117  tail sorted.cuff.out 
+  118  head sorted.cuff.out 
+  119  show sorted.cuff.out 
+  120  man bash
+  121  open top100.sorted.cuffdiff.out 
+  122  view top100.sorted.cuffdiff.out 
+  123  grep > cancer_genes.fasta 
+  124  grep '>' cancer_genes.fasta 
+  125  view cancer_genes.fasta 
+  126  head cancer_genes.fasta 
+  127  ls
+  128  wget  https://raw.githubusercontent.com/prog4biol/pfb2018/master/files/sequences.nt.fa
+  129  mv sequences.nt.fa > cancer_genes.fasta
+  130  mv sequences.nt.fa cancer_genes.fasta
+  131  head cancer_genes.fasta 
+  132  ls
+  133  rm differentially.expressed.genes-sort.txt 
+  134  ls
+  135  head differentially.expressed.genes.txt 
+  136  cd ..
+  137  ls
+  138  pwd
+  139  cd ..
+  140  ls | wc -l
+  141  ls -F
+  142  grep '
+  143  :q
+  144  :q!
+  145  -h
+  146  ls
+  147  ls
+  148  cd problemsets/
+  149  ls
+  150  mkdir PS1
+  151  rm dir PS1
+  152  rmdir PS1
+  153  mkdir PS1 | mv *.txt
+  154  ls
+  155  cd PS1 | ls
+  156  cd PS1
+  157  ls
+  158  ls -aF
+  159  cd ..
+  160  ls -aF
+  161  wget https://raw.githubusercontent.com/prog4biol/pfb2018/master/files/cuffdiff.txt
+  162  ls
+  163  ls
+  164  cd ..
+  165  ls
+  166  cd Public/
+  167  ls
+  168  cd ..
+  169  mkdir PFB_git
+  170  cd PFB_git/
+  171  mkdir PFB_problemsets
+  172  cd PFB_problemsets/
+  173  echo "# PFB_Problemsets" >> README.md
+  174  git init
+  175  git add README.md
+  176  git commit -m "first commit"
+  177  git remote add origin https://github.com/hillericm/PFB_Problemsets.git
+  178  git push -u origin master
+  179  nano git_exercises.txt
+  180  nano git_exercises.txt
+  181  git add git_exercises.txt 
+  182  git commit -m 'test file creation for git repository'
+  183  git push origin master
+  184  pwd
+  185  cd ..
+  186  git clone https://github.com/prog4biol/pfb2018.git
+  187  cd PFB_problemsets/
+  188  git clone https://github.com/prog4biol/pfb2018.git
+  189  ls
+  190  cd ..
+  191  ls
+  192  ls
+  193  cd PFB_problemsets/
+  194  ls
+  195  rm pfb2018/
+  196  rmdir pfb2018/
+  197  ls
+  198  man del
+  199  cd ..
+  200  git status
+  201  cd PFB_problemsets/
+  202  git status
+  203  cd ..
+  204  git pull
+  205  cd PFB_problemsets/
+  206  git pull
+  207  cd pfb2018/
+  208  ls
+  209  cd ../..
+  210  git init
+  211  git pull
+  212  cd PFB_problemsets/
+  213  ls
+  214  git pull
+  215  man mv
+  216  mv -h
+  217  cd ..
+  218  cd ..
+  219  ls
+  220  cd problemsets/
+  221  ls
+  222  mv cuffdiff.txt PS1/
+  223  ls
+  224  cd PS1/
+  225  ls
+  226  cd ..
+  227  mv differentially.expressed.genes.txt PS1/
+  228  mv sorted.cuff.out PS1/
+  229  mv top100.sorted.cuffdiff.out PS1/
+  230  ls
+  231  mv cancer_genes.fasta PS1/
+  232  ls
+  233  pwd
+  234  mv PS1 ../PFB_git/PFB_Problemsets
+  235  ls
+  236  cd ..
+  237  ls
+  238  cd PFB_git/
+  239  ls
+  240  cd PFB_problemsets/
+  241  ls
+  242  mv git_exercises.txt git_exercises2.txt
+  243  ls
+  244  read git_exercises2.txt 
+  245  mv git_exercises.txt
+  246  mv git_exercises2.txt git_exercises.txt
+  247  ls
+  248  git status
+  249  mv PS1 Unix01
+  250  ls
+  251  git status
+  252  git add Unix01/
+  253  git commit -m 'Adding Unix PS1 - 10/15/18'
+  254  git push
+  255  mkdir files
+  256  mv Unix01/cancer_genes.fasta files/
+  257  ls
+  258  cd files
+  259  ls
+  260  cd ..
+  261  git add files/cancer_genes.fasta 
+  262  git commit - 'adding cancer_genes.fasta'
+  263  q
+  264  ls
+  265  git add files/cancer_genes.fasta 
+  266  git commit -m 'adding cancer_genes.fasta'
+  267  git push
+  268  cd files
+  269  ls
+  270  nano mysequences.txt
+  271  ls
+  272  git add mysequences.txt 
+  273  git commit -m 'adding mysequence.txt'
+  274  git push
+  275  mkdir fastas
+  276  man cp
+  277  ls
+  278  cd ..
+  279  ls
+  280  git status
+  281  ls
+  282  cd files
+  283  cd fastas
+  284  ls
+  285  cd ..
+  286  ls
+  287  mv cancer_genes.fasta fastas/
+  288  ls
+  289  cd fastas/
+  290  ls
+  291  git status
+  292  git add fastas/
+  293  cd ..
+  294  ls
+  295  git push
+  296  git status
+  297  git add fastas/
+  298  git commit -m 'adding fastas directory'
+  299  git push
+  300  man history
+  301  history -h
+  302  man history
+  303  print history > ~/unixBasics.history.txt
+  304  history > ~/unixBasics.history.txt
+  305  cd ~
+  306  ls
+  307  cd problemsets/
+  308  ls
+  309  cd ..
+  310  rmdir problemsets/
+  311  ls
+  312  git status
+  313  cd PFB_git/
+  314  git status
+  315  git pull
+  316  ls
+  317  ls
+  318  mv PFB_problemsets/ PFB_git
+  319  ls
+  320  ls
+  321  cd PFB_git/
+  322  ls
+  323  mkdir PFB_problemsets
+  324  git move Unix01 PFB_problemsets/
+  325  mv Unix01 PFB_problemsets/
+  326  ls
+  327  mv files PFB_problemsets/
+  328  mv git_exercises.txt  PFB_problemsets/
+  329  ls
+  330  cd ..
+  331  ls
+  332  cd PFB_git/
+  333  ls
+  334  cd ..
+  335  ls
+  336  git remove pfb2018/
+  337  git rm pfb2018/
+  338  git rmdir pfb2018/
+  339  ls
+  340  cd PFB_git
+  341  ls
+  342  cd ..
+  343  ls
+  344  mv PFB_git/ PFB_git1/
+  345  ls
+  346  pwd
+  347  rm pfb2018/
+  348  rmdir pfb2018/
+  349  rm -rf pfb2018/
+  350  ls
+  351  mv PFB_git1/ ../
+  352  ls
+  353  cd ..
+  354  ls
+  355  rmdir PFB_git
+  356  cd PFB_git
+  357  ls
+  358  ls -a
+  359  rm -rf PFB-git
+  360  cd ..
+  361  rm -rf PFB-git
+  362  ls
+  363  rm -rf PFB_git
+  364  ls
+  365  mv PFB_git1/ PFB_git/
+  366  ls
+  367  cd PFB_git/
+  368  ls
+  369  git status
+  370  git add PFB_problemsets/
+  371  git commit -m 'adding new clean version with better file structure'
+  372  git push
+  373  pwd
+  374  ls
+  375  git pull
+  376  git checkout master
+  377  git rm -r git_exercises.txt
+  378  ls
+  379  git commit
+  380  ls
+  381  cd PFB_git
+  382  ls
+  383  git status
+  384  git add PFB_problemsets/
+  385  git commit -m 'more cleaning attempts'
+  386  git push
+  387  git status
+  388  git rm Unix01/
+  389  git rm -r Unix01/
+  390  git commit -m 'more cleaning'
+  391  git push
+  392  git rm -r files/
+  393  git commit -m 'finally clean'
+  394  git push
+  395  ls
+  396  git status
+  397  git pull
+  398  cd ..
+  399  ls
+  400  nano unixBasics.history.txt 
+  401  cd PFB_git/
+  402  ls
+  403  mv PFB_problemsets/ pfb_problemsets
+  404  ls
+  405  git status
+  406  mv pfb_problemsets/ PFB_problemsets/
+  407  ls
+  408  cd ..
+  409  ls
+  410  mv unixBasics.history.txt PFB_git/DailyHistoryLog/
+  411  cd PFB_git/
+  412  ls
+  413  mkdir HistoryLogs
+  414  mv ../unixBasics.history.txt 
+  415  ls
+  416  cd HistoryLogs/
+  417  ls
+  418  cd ../../unixBasics.history.txt 
+  419  mv ../../unixBasics.history.txt 
+  420  ls
+  421  cd ..
+  422  ls
+  423  cd ..
+  424  ls
+  425  mv unixBasics.history.txt PFB_git/HistoryLogs/
+  426  ls
+  427  cd PFB_git/HistoryLogs/
+  428  ls
+  429  mv unixBasics.history.txt D1-unixBasics.history.txt
+  430  ls
+  431  cd ..
+  432  git add HistoryLogs/
+  433  git commit -m 'adding dir for history logs'
+  434  git push
+  435  ls
+  436  man git remote
+  437  man git
+  438  git dir
+  439  man git remote
+  440  git status
+  441  git pull
+  442  git ls -a
+  443  ls -a
+  444  nano .git
+  445  git remote set-url origin https://github.com/hillericm/PFB_git.git
+  446  git status
+  447  ls
+  448  nano testfile.txt
+  449  ls
+  450  git status
+  451  git add testfile.txt 
+  452  git commit -m 'test of remote repo URL change'
+  453  git push
+  454  git rm testfile.txt 
+  455  git commit -m 'remove test file after confirmation of correct URL'
+  456  git push
+  457  git status
+  458  git pull
+  459  ls
+  460  cd PFB_problemsets/
+  461  ls
+  462  cd Unix01/
+  463  ls
+  464  nano Unix01.txt
+  465  cd PFB_git/
+  466  ls
+  467  git status
+  468  git status
+  469  cd ~
+  470  pwd
+  471  ls
+  472  cd PFB_git/
+  473  ls
+  474  mv pfb2018/ ../
+  475  ls
+  476  cd ..
+  477  ls
+  478  cd pfb2018/
+  479  ls -a
+  480  git pull
+  481  cd ..
+  482  ls
+  483  pwd
+  484  ls
+  485  cd PFB_git/
+  486  ls
+  487  PFB_problemsets
+  488  cd PFB_problemsets/
+  489  ls
+  490  cd Unix01/
+  491  ls
+  492  nanos Unix01.txt 
+  493  nano Unix01.txt 
+  494  cd PFB_git/
+  495  cd PFB_problemsets/
+  496  cd Unix01/
+  497  ls
+  498  ls
+  499  cd PFB_git/
+  500  ls
+  501  cd PFB_problemsets/
+  502  ls
+  503  mkdir Python02
+  504  ls
+  505  nano problemset1.py
+  506  chmod r +x problemset1.py 
+  507  chmod u +x problemset1.py 
+  508  chmod u+x problemset1.py 
+  509  pwd
+  510  ls
+  511  mv problemset1.py Python02/
+  512  ls
+  513  cd Python02/
+  514  ./problemset1.py 
+  515  myName='Eric Hill'
+  516  ./problemset1.py 
+  517  nano problemset1.py 
+  518  ./problemset1.py 
+  519  git add ../Python02/
+  520  git commit -m 'added name to print'
+  521  nano problemset1.py 
+  522  ./problemset1.py 
+  523  cp problemset1.py problemset1-sys.py
+  524  ls
+  525  nano problemset1-sys.py 
+  526  nano problemset1-sys.py 
+  527  ./problemset1-sys.py 'Eric Hill' green tennis chicken
+  528  nano problemset1-sys.py 
+  529  ./problemset1-sys.py 'Eric Hill' green tennis chicken
+  530  nano problemset1-sys.py 
+  531  ./problemset1-sys.py 
+  532  nano problemset1-sys.py 
+  533  ./problemset1-sys.py 
+  534  nano problemset1-sys.py 
+  535  ./problemset1-sys.py 
+  536  nano problemset1-sys.py 
+  537  ./problemset1-sys.py 
+  538  nano problemset1-sys.py 
+  539  ./problemset1-sys.py 
+  540  nano problemset1-sys.py 
+  541  ./problemset1-sys.py 
+  542  ./problemset1-sys.py 'Eric Hill' green tennis chicken
+  543  nano problemset1-sys.py 
+  544  cp problemset1-sys.py problemset2-sys2.py
+  545  nano problemset-sys2.py
+  546  ls
+  547  mv problemset2-sys2.py problemset1-sys2.py
+  548  ls
+  549  nano problemset1-sys2.py 
+  550  ./problemset1-sys2.py 'Eric Hill' green tennis chicken
+  551  nano problemset1-sys2.py 
+  552  ./problemset1-sys2.py 'Eric Hill' green tennis chicken
+  553  nano problemset1-sys2.py 
+  554  nano problemset1-sys2.py 
+  555  ./problemset1-sys2.py 'Eric Hill' green tennis chicken
+  556  nano problemset1-sys2.py 
+  557  ./problemset1-sys2.py 'Eric Hill' green tennis chicken
+  558  nano problemset1-sys2.py 
+  559  ./problemset1-sys2.py 'Eric Hill' green tennis chicken
+  560  nano problemset1-sys2.py 
+  561  ./problemset1-sys2.py 'Eric Hill' green tennis chicken
+  562  nano problemset1-sys2.py 
+  563  ./problemset1-sys2.py 'Eric Hill' green tennis chicken
+  564  nano problemset1-sys2.py 
+  565  ./problemset1-sys2.py 'Eric Hill' green tennis chicken
+  566  cp problemset1-sys2.py problemset1-sys2p.py
+  567  nano problemset1-sys2p.py 
+  568  ./problemset1-sys2p.py 'Eric Hill' green tennis chicken
+  569  nano problemset1-sys2p.py 
+  570  ./problemset1-sys2p.py 'Eric Hill' green tennis chicken
+  571  git add ../Python02/
+  572  git commit -m 'added color, sport, animal information into sys.argv levels'
+  573  git push
+  574  nano problemset1-sys2p.py 
+  575  ./problemset1-sys2p.py 'Eric Hill' green tennis chicken
+  576  git add ../Python02/
+  577  git commit -m 'added comment about + versus ,'
+  578  git status
+  579  git push
+  580  git status
+  581  git add ../../PFB_problemsets/
+  582  git commit -m 'completing deletion of old test file'
+  583  git push
+  584  git status
+  585  cd ..
+  586  cd ..
+  587  cd HistoryLogs/
+  588  ls
+  589  history > D2M-python01.history.txt
