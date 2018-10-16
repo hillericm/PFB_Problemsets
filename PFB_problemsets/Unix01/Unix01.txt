@@ -1,0 +1,9 @@
+Home absolute location - /Network/Servers/miniserve.cshl.edu/Volumes/KRAKEN/PFB2018/ehi
+
+Up one directory contains 34 files
+cd .. ls | wc -l
+
+All files are diretories
+
+
+
