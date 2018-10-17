@@ -1,0 +1,500 @@
+    2  ls
+    3  git add files/cancer_genes.fasta 
+    4  git commit -m 'adding cancer_genes.fasta'
+    5  git push
+    6  cd files
+    7  ls
+    8  nano mysequences.txt
+    9  ls
+   10  git add mysequences.txt 
+   11  git commit -m 'adding mysequence.txt'
+   12  git push
+   13  mkdir fastas
+   14  man cp
+   15  ls
+   16  cd ..
+   17  ls
+   18  git status
+   19  ls
+   20  cd files
+   21  cd fastas
+   22  ls
+   23  cd ..
+   24  ls
+   25  mv cancer_genes.fasta fastas/
+   26  ls
+   27  cd fastas/
+   28  ls
+   29  git status
+   30  git add fastas/
+   31  cd ..
+   32  ls
+   33  git push
+   34  git status
+   35  git add fastas/
+   36  git commit -m 'adding fastas directory'
+   37  git push
+   38  man history
+   39  history -h
+   40  man history
+   41  print history > ~/unixBasics.history.txt
+   42  history > ~/unixBasics.history.txt
+   43  cd ~
+   44  ls
+   45  cd problemsets/
+   46  ls
+   47  cd ..
+   48  rmdir problemsets/
+   49  ls
+   50  git status
+   51  cd PFB_git/
+   52  git status
+   53  git pull
+   54  ls
+   55  ls
+   56  mv PFB_problemsets/ PFB_git
+   57  ls
+   58  ls
+   59  cd PFB_git/
+   60  ls
+   61  mkdir PFB_problemsets
+   62  git move Unix01 PFB_problemsets/
+   63  mv Unix01 PFB_problemsets/
+   64  ls
+   65  mv files PFB_problemsets/
+   66  mv git_exercises.txt  PFB_problemsets/
+   67  ls
+   68  cd ..
+   69  ls
+   70  cd PFB_git/
+   71  ls
+   72  cd ..
+   73  ls
+   74  git remove pfb2018/
+   75  git rm pfb2018/
+   76  git rmdir pfb2018/
+   77  ls
+   78  cd PFB_git
+   79  ls
+   80  cd ..
+   81  ls
+   82  mv PFB_git/ PFB_git1/
+   83  ls
+   84  pwd
+   85  rm pfb2018/
+   86  rmdir pfb2018/
+   87  rm -rf pfb2018/
+   88  ls
+   89  mv PFB_git1/ ../
+   90  ls
+   91  cd ..
+   92  ls
+   93  rmdir PFB_git
+   94  cd PFB_git
+   95  ls
+   96  ls -a
+   97  rm -rf PFB-git
+   98  cd ..
+   99  rm -rf PFB-git
+  100  ls
+  101  rm -rf PFB_git
+  102  ls
+  103  mv PFB_git1/ PFB_git/
+  104  ls
+  105  cd PFB_git/
+  106  ls
+  107  git status
+  108  git add PFB_problemsets/
+  109  git commit -m 'adding new clean version with better file structure'
+  110  git push
+  111  pwd
+  112  ls
+  113  git pull
+  114  git checkout master
+  115  git rm -r git_exercises.txt
+  116  ls
+  117  git commit
+  118  ls
+  119  cd PFB_git
+  120  ls
+  121  git status
+  122  git add PFB_problemsets/
+  123  git commit -m 'more cleaning attempts'
+  124  git push
+  125  git status
+  126  git rm Unix01/
+  127  git rm -r Unix01/
+  128  git commit -m 'more cleaning'
+  129  git push
+  130  git rm -r files/
+  131  git commit -m 'finally clean'
+  132  git push
+  133  ls
+  134  git status
+  135  git pull
+  136  cd ..
+  137  ls
+  138  nano unixBasics.history.txt 
+  139  cd PFB_git/
+  140  ls
+  141  mv PFB_problemsets/ pfb_problemsets
+  142  ls
+  143  git status
+  144  mv pfb_problemsets/ PFB_problemsets/
+  145  ls
+  146  cd ..
+  147  ls
+  148  mv unixBasics.history.txt PFB_git/DailyHistoryLog/
+  149  cd PFB_git/
+  150  ls
+  151  mkdir HistoryLogs
+  152  mv ../unixBasics.history.txt 
+  153  ls
+  154  cd HistoryLogs/
+  155  ls
+  156  cd ../../unixBasics.history.txt 
+  157  mv ../../unixBasics.history.txt 
+  158  ls
+  159  cd ..
+  160  ls
+  161  cd ..
+  162  ls
+  163  mv unixBasics.history.txt PFB_git/HistoryLogs/
+  164  ls
+  165  cd PFB_git/HistoryLogs/
+  166  ls
+  167  mv unixBasics.history.txt D1-unixBasics.history.txt
+  168  ls
+  169  cd ..
+  170  git add HistoryLogs/
+  171  git commit -m 'adding dir for history logs'
+  172  git push
+  173  ls
+  174  man git remote
+  175  man git
+  176  git dir
+  177  man git remote
+  178  git status
+  179  git pull
+  180  git ls -a
+  181  ls -a
+  182  nano .git
+  183  git remote set-url origin https://github.com/hillericm/PFB_git.git
+  184  git status
+  185  ls
+  186  nano testfile.txt
+  187  ls
+  188  git status
+  189  git add testfile.txt 
+  190  git commit -m 'test of remote repo URL change'
+  191  git push
+  192  git rm testfile.txt 
+  193  git commit -m 'remove test file after confirmation of correct URL'
+  194  git push
+  195  git status
+  196  git pull
+  197  ls
+  198  cd PFB_problemsets/
+  199  ls
+  200  cd Unix01/
+  201  ls
+  202  nano Unix01.txt
+  203  cd PFB_git/
+  204  ls
+  205  git status
+  206  git status
+  207  cd ~
+  208  pwd
+  209  ls
+  210  cd PFB_git/
+  211  ls
+  212  mv pfb2018/ ../
+  213  ls
+  214  cd ..
+  215  ls
+  216  cd pfb2018/
+  217  ls -a
+  218  git pull
+  219  cd ..
+  220  ls
+  221  pwd
+  222  ls
+  223  cd PFB_git/
+  224  ls
+  225  PFB_problemsets
+  226  cd PFB_problemsets/
+  227  ls
+  228  cd Unix01/
+  229  ls
+  230  nanos Unix01.txt 
+  231  nano Unix01.txt 
+  232  cd PFB_git/
+  233  cd PFB_problemsets/
+  234  cd Unix01/
+  235  ls
+  236  python3 print('Hello New York')
+  237  python3
+  238  ls
+  239  cd PFB_git/
+  240  ls
+  241  cd PFB_problemsets/
+  242  ls
+  243  mkdir Python02
+  244  ls
+  245  nano problemset1.py
+  246  chmod r +x problemset1.py 
+  247  chmod u +x problemset1.py 
+  248  chmod u+x problemset1.py 
+  249  pwd
+  250  ls
+  251  mv problemset1.py Python02/
+  252  ls
+  253  cd Python02/
+  254  ./problemset1.py 
+  255  myName='Eric Hill'
+  256  ./problemset1.py 
+  257  nano problemset1.py 
+  258  ./problemset1.py 
+  259  git add ../Python02/
+  260  git commit -m 'added name to print'
+  261  nano problemset1.py 
+  262  ./problemset1.py 
+  263  cp problemset1.py problemset1-sys.py
+  264  ls
+  265  nano problemset1-sys.py 
+  266  nano problemset1-sys.py 
+  267  ./problemset1-sys.py 'Eric Hill' green tennis chicken
+  268  nano problemset1-sys.py 
+  269  ./problemset1-sys.py 'Eric Hill' green tennis chicken
+  270  nano problemset1-sys.py 
+  271  ./problemset1-sys.py 
+  272  nano problemset1-sys.py 
+  273  ./problemset1-sys.py 
+  274  nano problemset1-sys.py 
+  275  ./problemset1-sys.py 
+  276  nano problemset1-sys.py 
+  277  ./problemset1-sys.py 
+  278  nano problemset1-sys.py 
+  279  ./problemset1-sys.py 
+  280  nano problemset1-sys.py 
+  281  ./problemset1-sys.py 
+  282  ./problemset1-sys.py 'Eric Hill' green tennis chicken
+  283  nano problemset1-sys.py 
+  284  cp problemset1-sys.py problemset2-sys2.py
+  285  nano problemset-sys2.py
+  286  ls
+  287  mv problemset2-sys2.py problemset1-sys2.py
+  288  ls
+  289  nano problemset1-sys2.py 
+  290  ./problemset1-sys2.py 'Eric Hill' green tennis chicken
+  291  nano problemset1-sys2.py 
+  292  ./problemset1-sys2.py 'Eric Hill' green tennis chicken
+  293  nano problemset1-sys2.py 
+  294  nano problemset1-sys2.py 
+  295  ./problemset1-sys2.py 'Eric Hill' green tennis chicken
+  296  nano problemset1-sys2.py 
+  297  ./problemset1-sys2.py 'Eric Hill' green tennis chicken
+  298  nano problemset1-sys2.py 
+  299  ./problemset1-sys2.py 'Eric Hill' green tennis chicken
+  300  nano problemset1-sys2.py 
+  301  ./problemset1-sys2.py 'Eric Hill' green tennis chicken
+  302  nano problemset1-sys2.py 
+  303  ./problemset1-sys2.py 'Eric Hill' green tennis chicken
+  304  nano problemset1-sys2.py 
+  305  ./problemset1-sys2.py 'Eric Hill' green tennis chicken
+  306  cp problemset1-sys2.py problemset1-sys2p.py
+  307  nano problemset1-sys2p.py 
+  308  ./problemset1-sys2p.py 'Eric Hill' green tennis chicken
+  309  nano problemset1-sys2p.py 
+  310  ./problemset1-sys2p.py 'Eric Hill' green tennis chicken
+  311  git add ../Python02/
+  312  git commit -m 'added color, sport, animal information into sys.argv levels'
+  313  git push
+  314  nano problemset1-sys2p.py 
+  315  ./problemset1-sys2p.py 'Eric Hill' green tennis chicken
+  316  git add ../Python02/
+  317  git commit -m 'added comment about + versus ,'
+  318  git status
+  319  git push
+  320  git status
+  321  git add ../../PFB_problemsets/
+  322  git commit -m 'completing deletion of old test file'
+  323  git push
+  324  git status
+  325  cd ..
+  326  cd ..
+  327  cd HistoryLogs/
+  328  ls
+  329  history > D2M-python01.history.txt
+  330  ls
+  331  cd ..
+  332  git add PFB_problemsets/
+  333  git commit -m 'added Python 1 Problem Set History Log'
+  334  git add HistoryLogs/
+  335  git commit -m 'added Python 1 Problem Set History Log'
+  336  git push
+  337  man rm
+  338  cd PFB_git/
+  339  cd PFB_problemsets/
+  340  cd Python02/
+  341  python3
+  342  cd ~
+  343  ls
+  344  cd pfb2018/
+  345  git pull
+  346  cd ..
+  347  cd PFB_git/
+  348  git status
+  349  cd ..
+  350  git status
+  351  ls
+  352  cd PFB_git/
+  353  cd PFB_problemsets/
+  354  ls
+  355  cd Python02/
+  356  ls
+  357  vi problemset2-12-TEST.py 
+  358  pwd
+  359  cd PFB_git/PFB_problemsets/
+  360  ls
+  361  cd Python02/
+  362  ls
+  363  ipython
+  364  ls
+  365  nano problemset2.py
+  366  python3
+  367  python3 problemset2.py 
+  368  nano problemset2.py 
+  369  python3 problemset2.py 
+  370  nano problemset2.py 
+  371  python3 problemset2.py 
+  372  nano problemset2.py 
+  373  python3 problemset2.py 
+  374  nano problemset2.py 
+  375  python3 problemset2.py 
+  376  nano problemset2.py 
+  377  python3 problemset2.py 
+  378  mv problemset2.py problemset2-5.py
+  379  ls
+  380  git add ../Python02/
+  381  git commit -m 'add problemset2-5.py'
+  382  cp problemset2-5.py problemset2-7.py 
+  383  ls
+  384  nano problemset2-7.py 
+  385  ./problemset2-7.py 17
+  386  nano problemset2-7.py 
+  387  ./problemset2-7.py 17
+  388  problemset2-7.py 17
+  389  nano problemset1-sys.py
+  390  nano problemset2-7.py
+  391  ./problemset1.py 
+  392  nano problemset1.py 
+  393  python3 problemset2-7.py 
+  394  nano problemset2-7.py 
+  395  python3 problemset2-5.py
+  396  rm problemset2-7.py 
+  397  ls
+  398  nano problemset2-7.py
+  399  problemset2-7.py
+  400  ./problemset1-sys.py 
+  401  nano problemset2-7.py
+  402  python3 problemset2-7.py
+  403  nano problemset2-7.py
+  404  python3 problemset2-7.py
+  405  python3 problemset2-7.py 17
+  406  nano problemset2-7.py
+  407  python3 problemset2-7.py 17
+  408  ls -l problemset2-7.py
+  409  chmod u+x problem2-7.py
+  410  chmod u+x problemset2-7.py
+  411  ./problemset2-7.py 37
+  412  cp problemset2-7.py problemset2-8.py
+  413  ls -l problemset2-8.py
+  414  nano problemset2-8.py 
+  415  ./problemset2-8.py -9
+  416  git add ../Python02/
+  417  git commit -m 'add problemset2-7 and 2-8.py files'
+  418  cp problemset2-8.py problemset2-9.py
+  419  nano problemset2-9.py 
+  420  ./problemset2-9.py 9
+  421  nano problemset2-9.py 
+  422  ./problemset2-9.py 9
+  423  nano problemset2-9.py 
+  424  ./problemset2-9.py 9
+  425  ./problemset2-9.py 0
+  426  cp problemset2-9.py problemset2-10.py
+  427  nano problemset2-10.py 
+  428  ./problemset2-10.py 690
+  429  nano problemset2-10.py 
+  430  ./problemset2-10.py 690
+  431  nano problemset2-10.py 
+  432  ./problemset2-10.py 690
+  433  cp problemset2-10.py problemset2-11.py
+  434  nano problemset2-11.py 
+  435  ./problemset2-11.py 690
+  436  nano problemset2-11.py 
+  437  ./problemset2-11.py 690
+  438  nano problemset2-11.py 
+  439  ./problemset2-11.py 690
+  440  cp problemset2-11.py problemset2-12.py
+  441  nano problemset2-12.py 
+  442  ./problemset2-12.py 690
+  443  ./problemset2-12.py 50
+  444  ./problemset2-12.py 12
+  445  nano problemset2-12.py 
+  446  ./problemset2-12.py 12
+  447  ./problemset2-12.py 13
+  448  nano problemset2-12.py 
+  449  ./problemset2-12.py 13
+  450  nano problemset2-12.py 
+  451  ./problemset2-12.py 66
+  452  ./problemset2-12.py -66
+  453  ./problemset2-12.py 50
+  454  ./problemset2-12.py 0
+  455  nano problemset2-12.py 
+  456  ./problemset2-12.py 2.2
+  457  git add ../Python02/
+  458  git commit -m 'finish problemset2 by adding 2-11 and 2-12'
+  459  git push
+  460  nano problemset2-12.py 
+  461  ./problemset2-12.py 2.2
+  462  ./problemset2-12.py 22.2
+  463  ./problemset2-12.py 333.3
+  464  nano problemset2-12.py
+  465  nano problemset2-12.py
+  466  ./problemset2-12.py 333.3
+  467  ./problemset2-12.py 332
+  468  ./problemset2-12.py 333
+  469  ./problemset2-12.py 50
+  470  ./problemset2-12.py 12
+  471  nano problemset2-12.py
+  472  ./problemset2-12.py 12
+  473  ./problemset2-12.py 50
+  474  ./problemset2-12.py 333
+  475  ./problemset2-12.py 332
+  476  python3
+  477  git add ../Python02/
+  478  git commit -m 'fix large positive number indivisible by 3'
+  479  git push
+  480  vi problemset2-12.py
+  481  cp problemset2-12.py problemset2-12-TEST.py
+  482  vi problemset2-12-TEST.py 
+  483  emacs problemset2-12-Test.py
+  484  vi problemset2-12-TEST.py 
+  485  vi problemset2-12-TEST.py 
+  486  emacs problemset2-12-TEST.py 
+  487  vi problemset2-12-TEST.py 
+  488  ./problemset2-12.py 
+  489  ./problemset2-12.py 50
+  490  ./problemset2-12.py 332
+  491  ./problemset2-12.py 332
+  492  ./problemset2-12.py 333
+  493  ./problemset2-12.py 33
+  494  ./problemset2-12.py 32
+  495  ./problemset2-12.py -89
+  496  vi problemset2-12-TEST.py 
+  497  ./problemset2-12.py -50
+  498  ./problemset2-12.py -0
+  499   cd PFB_git/HistoryLogs/
+  500  ls
+  501  history > D2E-python02.history.txt
