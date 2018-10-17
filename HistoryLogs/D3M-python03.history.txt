@@ -1,0 +1,500 @@
+   53  git remove pfb2018/
+   54  git rm pfb2018/
+   55  git rmdir pfb2018/
+   56  ls
+   57  cd PFB_git
+   58  ls
+   59  cd ..
+   60  ls
+   61  mv PFB_git/ PFB_git1/
+   62  ls
+   63  pwd
+   64  rm pfb2018/
+   65  rmdir pfb2018/
+   66  rm -rf pfb2018/
+   67  ls
+   68  mv PFB_git1/ ../
+   69  ls
+   70  cd ..
+   71  ls
+   72  rmdir PFB_git
+   73  cd PFB_git
+   74  ls
+   75  ls -a
+   76  rm -rf PFB-git
+   77  cd ..
+   78  rm -rf PFB-git
+   79  ls
+   80  rm -rf PFB_git
+   81  ls
+   82  mv PFB_git1/ PFB_git/
+   83  ls
+   84  cd PFB_git/
+   85  ls
+   86  git status
+   87  git add PFB_problemsets/
+   88  git commit -m 'adding new clean version with better file structure'
+   89  git push
+   90  pwd
+   91  ls
+   92  git pull
+   93  git checkout master
+   94  git rm -r git_exercises.txt
+   95  ls
+   96  git commit
+   97  ls
+   98  cd PFB_git
+   99  ls
+  100  git status
+  101  git add PFB_problemsets/
+  102  git commit -m 'more cleaning attempts'
+  103  git push
+  104  git status
+  105  git rm Unix01/
+  106  git rm -r Unix01/
+  107  git commit -m 'more cleaning'
+  108  git push
+  109  git rm -r files/
+  110  git commit -m 'finally clean'
+  111  git push
+  112  ls
+  113  git status
+  114  git pull
+  115  cd ..
+  116  ls
+  117  nano unixBasics.history.txt 
+  118  cd PFB_git/
+  119  ls
+  120  mv PFB_problemsets/ pfb_problemsets
+  121  ls
+  122  git status
+  123  mv pfb_problemsets/ PFB_problemsets/
+  124  ls
+  125  cd ..
+  126  ls
+  127  mv unixBasics.history.txt PFB_git/DailyHistoryLog/
+  128  cd PFB_git/
+  129  ls
+  130  mkdir HistoryLogs
+  131  mv ../unixBasics.history.txt 
+  132  ls
+  133  cd HistoryLogs/
+  134  ls
+  135  cd ../../unixBasics.history.txt 
+  136  mv ../../unixBasics.history.txt 
+  137  ls
+  138  cd ..
+  139  ls
+  140  cd ..
+  141  ls
+  142  mv unixBasics.history.txt PFB_git/HistoryLogs/
+  143  ls
+  144  cd PFB_git/HistoryLogs/
+  145  ls
+  146  mv unixBasics.history.txt D1-unixBasics.history.txt
+  147  ls
+  148  cd ..
+  149  git add HistoryLogs/
+  150  git commit -m 'adding dir for history logs'
+  151  git push
+  152  ls
+  153  man git remote
+  154  man git
+  155  git dir
+  156  man git remote
+  157  git status
+  158  git pull
+  159  git ls -a
+  160  ls -a
+  161  nano .git
+  162  git remote set-url origin https://github.com/hillericm/PFB_git.git
+  163  git status
+  164  ls
+  165  nano testfile.txt
+  166  ls
+  167  git status
+  168  git add testfile.txt 
+  169  git commit -m 'test of remote repo URL change'
+  170  git push
+  171  git rm testfile.txt 
+  172  git commit -m 'remove test file after confirmation of correct URL'
+  173  git push
+  174  git status
+  175  git pull
+  176  ls
+  177  cd PFB_problemsets/
+  178  ls
+  179  cd Unix01/
+  180  ls
+  181  nano Unix01.txt
+  182  cd PFB_git/
+  183  ls
+  184  git status
+  185  git status
+  186  cd ~
+  187  pwd
+  188  ls
+  189  cd PFB_git/
+  190  ls
+  191  mv pfb2018/ ../
+  192  ls
+  193  cd ..
+  194  ls
+  195  cd pfb2018/
+  196  ls -a
+  197  git pull
+  198  cd ..
+  199  ls
+  200  pwd
+  201  ls
+  202  cd PFB_git/
+  203  ls
+  204  PFB_problemsets
+  205  cd PFB_problemsets/
+  206  ls
+  207  cd Unix01/
+  208  ls
+  209  nanos Unix01.txt 
+  210  nano Unix01.txt 
+  211  cd PFB_git/
+  212  cd PFB_problemsets/
+  213  cd Unix01/
+  214  ls
+  215  python3 print('Hello New York')
+  216  python3
+  217  ls
+  218  cd PFB_git/
+  219  ls
+  220  cd PFB_problemsets/
+  221  ls
+  222  mkdir Python02
+  223  ls
+  224  nano problemset1.py
+  225  chmod r +x problemset1.py 
+  226  chmod u +x problemset1.py 
+  227  chmod u+x problemset1.py 
+  228  pwd
+  229  ls
+  230  mv problemset1.py Python02/
+  231  ls
+  232  cd Python02/
+  233  ./problemset1.py 
+  234  myName='Eric Hill'
+  235  ./problemset1.py 
+  236  nano problemset1.py 
+  237  ./problemset1.py 
+  238  git add ../Python02/
+  239  git commit -m 'added name to print'
+  240  nano problemset1.py 
+  241  ./problemset1.py 
+  242  cp problemset1.py problemset1-sys.py
+  243  ls
+  244  nano problemset1-sys.py 
+  245  nano problemset1-sys.py 
+  246  ./problemset1-sys.py 'Eric Hill' green tennis chicken
+  247  nano problemset1-sys.py 
+  248  ./problemset1-sys.py 'Eric Hill' green tennis chicken
+  249  nano problemset1-sys.py 
+  250  ./problemset1-sys.py 
+  251  nano problemset1-sys.py 
+  252  ./problemset1-sys.py 
+  253  nano problemset1-sys.py 
+  254  ./problemset1-sys.py 
+  255  nano problemset1-sys.py 
+  256  ./problemset1-sys.py 
+  257  nano problemset1-sys.py 
+  258  ./problemset1-sys.py 
+  259  nano problemset1-sys.py 
+  260  ./problemset1-sys.py 
+  261  ./problemset1-sys.py 'Eric Hill' green tennis chicken
+  262  nano problemset1-sys.py 
+  263  cp problemset1-sys.py problemset2-sys2.py
+  264  nano problemset-sys2.py
+  265  ls
+  266  mv problemset2-sys2.py problemset1-sys2.py
+  267  ls
+  268  nano problemset1-sys2.py 
+  269  ./problemset1-sys2.py 'Eric Hill' green tennis chicken
+  270  nano problemset1-sys2.py 
+  271  ./problemset1-sys2.py 'Eric Hill' green tennis chicken
+  272  nano problemset1-sys2.py 
+  273  nano problemset1-sys2.py 
+  274  ./problemset1-sys2.py 'Eric Hill' green tennis chicken
+  275  nano problemset1-sys2.py 
+  276  ./problemset1-sys2.py 'Eric Hill' green tennis chicken
+  277  nano problemset1-sys2.py 
+  278  ./problemset1-sys2.py 'Eric Hill' green tennis chicken
+  279  nano problemset1-sys2.py 
+  280  ./problemset1-sys2.py 'Eric Hill' green tennis chicken
+  281  nano problemset1-sys2.py 
+  282  ./problemset1-sys2.py 'Eric Hill' green tennis chicken
+  283  nano problemset1-sys2.py 
+  284  ./problemset1-sys2.py 'Eric Hill' green tennis chicken
+  285  cp problemset1-sys2.py problemset1-sys2p.py
+  286  nano problemset1-sys2p.py 
+  287  ./problemset1-sys2p.py 'Eric Hill' green tennis chicken
+  288  nano problemset1-sys2p.py 
+  289  ./problemset1-sys2p.py 'Eric Hill' green tennis chicken
+  290  git add ../Python02/
+  291  git commit -m 'added color, sport, animal information into sys.argv levels'
+  292  git push
+  293  nano problemset1-sys2p.py 
+  294  ./problemset1-sys2p.py 'Eric Hill' green tennis chicken
+  295  git add ../Python02/
+  296  git commit -m 'added comment about + versus ,'
+  297  git status
+  298  git push
+  299  git status
+  300  git add ../../PFB_problemsets/
+  301  git commit -m 'completing deletion of old test file'
+  302  git push
+  303  git status
+  304  cd ..
+  305  cd ..
+  306  cd HistoryLogs/
+  307  ls
+  308  history > D2M-python01.history.txt
+  309  ls
+  310  cd ..
+  311  git add PFB_problemsets/
+  312  git commit -m 'added Python 1 Problem Set History Log'
+  313  git add HistoryLogs/
+  314  git commit -m 'added Python 1 Problem Set History Log'
+  315  git push
+  316  man rm
+  317  cd PFB_git/
+  318  cd PFB_problemsets/
+  319  cd Python02/
+  320  python3
+  321  cd ~
+  322  ls
+  323  cd pfb2018/
+  324  git pull
+  325  cd ..
+  326  cd PFB_git/
+  327  git status
+  328  cd ..
+  329  git status
+  330  ls
+  331  cd PFB_git/
+  332  cd PFB_problemsets/
+  333  ls
+  334  cd Python02/
+  335  ls
+  336  vi problemset2-12-TEST.py 
+  337  pwd
+  338  cd PFB_git/PFB_problemsets/
+  339  ls
+  340  cd Python02/
+  341  ls
+  342  ipython
+  343  ls
+  344  nano problemset2.py
+  345  python3
+  346  python3 problemset2.py 
+  347  nano problemset2.py 
+  348  python3 problemset2.py 
+  349  nano problemset2.py 
+  350  python3 problemset2.py 
+  351  nano problemset2.py 
+  352  python3 problemset2.py 
+  353  nano problemset2.py 
+  354  python3 problemset2.py 
+  355  nano problemset2.py 
+  356  python3 problemset2.py 
+  357  mv problemset2.py problemset2-5.py
+  358  ls
+  359  git add ../Python02/
+  360  git commit -m 'add problemset2-5.py'
+  361  cp problemset2-5.py problemset2-7.py 
+  362  ls
+  363  nano problemset2-7.py 
+  364  ./problemset2-7.py 17
+  365  nano problemset2-7.py 
+  366  ./problemset2-7.py 17
+  367  problemset2-7.py 17
+  368  nano problemset1-sys.py
+  369  nano problemset2-7.py
+  370  ./problemset1.py 
+  371  nano problemset1.py 
+  372  python3 problemset2-7.py 
+  373  nano problemset2-7.py 
+  374  python3 problemset2-5.py
+  375  rm problemset2-7.py 
+  376  ls
+  377  nano problemset2-7.py
+  378  problemset2-7.py
+  379  ./problemset1-sys.py 
+  380  nano problemset2-7.py
+  381  python3 problemset2-7.py
+  382  nano problemset2-7.py
+  383  python3 problemset2-7.py
+  384  python3 problemset2-7.py 17
+  385  nano problemset2-7.py
+  386  python3 problemset2-7.py 17
+  387  ls -l problemset2-7.py
+  388  chmod u+x problem2-7.py
+  389  chmod u+x problemset2-7.py
+  390  ./problemset2-7.py 37
+  391  cp problemset2-7.py problemset2-8.py
+  392  ls -l problemset2-8.py
+  393  nano problemset2-8.py 
+  394  ./problemset2-8.py -9
+  395  git add ../Python02/
+  396  git commit -m 'add problemset2-7 and 2-8.py files'
+  397  cp problemset2-8.py problemset2-9.py
+  398  nano problemset2-9.py 
+  399  ./problemset2-9.py 9
+  400  nano problemset2-9.py 
+  401  ./problemset2-9.py 9
+  402  nano problemset2-9.py 
+  403  ./problemset2-9.py 9
+  404  ./problemset2-9.py 0
+  405  cp problemset2-9.py problemset2-10.py
+  406  nano problemset2-10.py 
+  407  ./problemset2-10.py 690
+  408  nano problemset2-10.py 
+  409  ./problemset2-10.py 690
+  410  nano problemset2-10.py 
+  411  ./problemset2-10.py 690
+  412  cp problemset2-10.py problemset2-11.py
+  413  nano problemset2-11.py 
+  414  ./problemset2-11.py 690
+  415  nano problemset2-11.py 
+  416  ./problemset2-11.py 690
+  417  nano problemset2-11.py 
+  418  ./problemset2-11.py 690
+  419  cp problemset2-11.py problemset2-12.py
+  420  nano problemset2-12.py 
+  421  ./problemset2-12.py 690
+  422  ./problemset2-12.py 50
+  423  ./problemset2-12.py 12
+  424  nano problemset2-12.py 
+  425  ./problemset2-12.py 12
+  426  ./problemset2-12.py 13
+  427  nano problemset2-12.py 
+  428  ./problemset2-12.py 13
+  429  nano problemset2-12.py 
+  430  ./problemset2-12.py 66
+  431  ./problemset2-12.py -66
+  432  ./problemset2-12.py 50
+  433  ./problemset2-12.py 0
+  434  nano problemset2-12.py 
+  435  ./problemset2-12.py 2.2
+  436  git add ../Python02/
+  437  git commit -m 'finish problemset2 by adding 2-11 and 2-12'
+  438  git push
+  439  nano problemset2-12.py 
+  440  ./problemset2-12.py 2.2
+  441  ./problemset2-12.py 22.2
+  442  ./problemset2-12.py 333.3
+  443  nano problemset2-12.py
+  444  nano problemset2-12.py
+  445  ./problemset2-12.py 333.3
+  446  ./problemset2-12.py 332
+  447  ./problemset2-12.py 333
+  448  ./problemset2-12.py 50
+  449  ./problemset2-12.py 12
+  450  nano problemset2-12.py
+  451  ./problemset2-12.py 12
+  452  ./problemset2-12.py 50
+  453  ./problemset2-12.py 333
+  454  ./problemset2-12.py 332
+  455  python3
+  456  git add ../Python02/
+  457  git commit -m 'fix large positive number indivisible by 3'
+  458  git push
+  459  vi problemset2-12.py
+  460  cp problemset2-12.py problemset2-12-TEST.py
+  461  vi problemset2-12-TEST.py 
+  462  emacs problemset2-12-Test.py
+  463  vi problemset2-12-TEST.py 
+  464  vi problemset2-12-TEST.py 
+  465  emacs problemset2-12-TEST.py 
+  466  vi problemset2-12-TEST.py 
+  467  ./problemset2-12.py 
+  468  ./problemset2-12.py 50
+  469  ./problemset2-12.py 332
+  470  ./problemset2-12.py 332
+  471  ./problemset2-12.py 333
+  472  ./problemset2-12.py 33
+  473  ./problemset2-12.py 32
+  474  ./problemset2-12.py -89
+  475  vi problemset2-12-TEST.py 
+  476  ./problemset2-12.py -50
+  477  ./problemset2-12.py -0
+  478   cd PFB_git/HistoryLogs/
+  479  ls
+  480  history > D2E-python02.history.txt
+  481  ls
+  482  git add ../HistoryLogs/
+  483  git commit -m 'added history logs from Day 2 PM sessions'
+  484  git status
+  485  git add ../PFB_problemsets/
+  486  git commit -m 'add python files testing text editors. GO VI!'
+  487  git status
+  488  git push
+  489  cd ..
+  490  git status
+  491  cd ..
+  492  cd pfb2018/
+  493  git status
+  494  git pull
+  495  ls
+  496  cat README.md 
+  497  cd ..
+  498  clear
+  499  vi dna-nt_count.py
+  500  mv dna-nt_count.py ./PFB_git/PFB_problemsets/Python03
+  501  cd ./PFB_git/PFB_problemsets/Python03
+  502  ls
+  503  ./dna-nt_count.py AATTGGCCA
+  504  vi dna-nt_count.py 
+  505  ./dna-nt_count.py AATTGGCCA
+  506  vi dna-nt_count.py 
+  507  ./dna-nt_count.py GATGGGATTggggttttccccTCCCATGTGCTCAAGACTGGCGCTaaaaGttttGAGCTTCTCaaaaGTCTAGAGCCACCGTCCAGGGAGCAGGTAGCTGCTGGGCTCCggggACACTTTGCGTTCGGGCTGGGAGCGTGCTTTCCACGACGGTGACACGCTTCCCTGGATTGGCAGCCAGACTGCCTTCCGGGTCACTGCCATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGccccCTCTGAGTCAGGAAACAttttCAGACCTATGGAAACTACTTCCTGaaaaCAACGTTCTGTccccCTTGCCGTCCCAAGCAATGGATGATTTGATGCTGTccccGGACGATATTGAACAATGGTTCACTGAAGACCCAGGTCCAGATGAAGCTCCCAGAATTCGCCAGAGGCTGCTccccCCGTGGccccTGCACCAGCAGCTCCTACACCGGCGGccccTGCACCAGccccCTCCTGGccccTGTCATCTTCTGTCCCTTCCCAGaaaaCCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGGGACAGCCAAGTCTGTGACTTGCACGTACTccccTGCCCTCAACAAGATGttttGCCAACTGGCCAAGACCTGCCCTGTGCAGCTGTGGGTTGATTCCACAccccCGCCCGGCACCCGCGTCCGCGCCATGGCCATCTACAAGCAGTCACAGCACATGACGGAGGTTGTGAGGCGCTGccccCACCATGAGCGCTGCTCAGATAGCGATGGTCTGGccccTCCTCAGCATCTTATCCGAGTGGAAGGAAATTTGCGTGTGGAGTATTTGGATGACAGAAACACttttCG
+  508  cp dna-nt_count.py dna-nt_RNA.py
+  509  vi dna-nt_RNA.py 
+  510  ./dna-nt_RNA.py AATTGGCCA
+  511  vi dna-nt_RNA.py 
+  512  ./dna-nt_RNA.py AATTGGCCA
+  513  ./dna-nt_RNA.py GATGGGATTGGGGTTTTCCCCTCCCATGTGCTCAAGACTGGCGCTAAAAGTTTTGAGCTTCTCAAAAGTCTAGAGCCACCGTCCAGGGAGCAGGTAGCTGCTGGGCTCCGGGGACACTTTGCGTTCGGGCTGGGAGCGTGCTTTCCACGACGGTGACACGCTTCCCTGGATTGGCAGCCAGACTGCCTTCCGGGTCACTGCCATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGCCCCCTCTGAGTCAGGAAACATTTTCAGACCTATGGAAACTACTTCCTGAAAACAACGTTCTGTCCCCCTTGCCGTCCCAAGCAATGGATGATTTGATGCTGTCCCCGGACGATATTGAACAATGGTTCACTGAAGACCCAGGTCCAGATGAAGCTCCCAGAATTCGCCAGAGGCTGCTCCCCCCGTGGCCCCTGCACCAGCAGCTCCTACACCGGCGGCCCCTGCACCAGCCCCCTCCTGGCCCCTGTCATCTTCTGTCCCTTCCCAGAAAACCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGGGACAGCCAAGTCTGTGACTTGCACGTACTCCCCTGCCCTCAACAAGATGTTTTGCCAACTGGCCAAGACCTGCCCTGTGCAGCTGTGGGTTGATTCCACACCCCCGCCCGGCACCCGCGTCCGCGCCATGGCCATCTACAAGCAGTCACAGCACATGACGGAGGTTGTGAGGCGCTGCCCCCACCATGAGCGCTGCTCAGATAGCGATGGTCTGGCCCCTCCTCAGCATCTTATCCGAGTGGAAGGAAATTTGCGTGTGGAGTATTTGGATGACAGAAACACTTTTCG
+  514  cp dna-nt_count.py dna-nt_ATcount.py
+  515  vi dna-nt_ATcount.py 
+  516  ./dna-nt_ATcount.py AATTGGCCA
+  517  cp dna-nt_ATcount.py cp dna-nt_GCcount.py
+  518  cp dna-nt_ATcount.py dna-nt_GCcount.py
+  519  vi dna-nt_GCcount.py 
+  520  ./dna-nt_GCcount.py AATTGGCCA
+  521  ./dna-nt_GCcount.py GATGGGATTGGGGTTTTCCCCTCCCATGTGCTCAAGACTGGCGCTAAAAGTTTTGAGCTTCTCAAAAGTCTAGAGCCACCGTCCAGGGAGCAGGTAGCTGCTGGGCTCCGGGGACACTTTGCGTTCGGGCTGGGAGCGTGCTTTCCACGACGGTGACACGCTTCCCTGGATTGGCAGCCAGACTGCCTTCCGGGTCACTGCCATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGCCCCCTCTGAGTCAGGAAACATTTTCAGACCTATGGAAACTACTTCCTGAAAACAACGTTCTGTCCCCCTTGCCGTCCCAAGCAATGGATGATTTGATGCTGTCCCCGGACGATATTGAACAATGGTTCACTGAAGACCCAGGTCCAGATGAAGCTCCCAGAATTCGCCAGAGGCTGCTCCCCCCGTGGCCCCTGCACCAGCAGCTCCTACACCGGCGGCCCCTGCACCAGCCCCCTCCTGGCCCCTGTCATCTTCTGTCCCTTCCCAGAAAACCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGGGACAGCCAAGTCTGTGACTTGCACGTACTCCCCTGCCCTCAACAAGATGTTTTGCCAACTGGCCAAGACCTGCCCTGTGCAGCTGTGGGTTGATTCCACACCCCCGCCCGGCACCCGCGTCCGCGCCATGGCCATCTACAAGCAGTCACAGCACATGACGGAGGTTGTGAGGCGCTGCCCCCACCATGAGCGCTGCTCAGATAGCGATGGTCTGGCCCCTCCTCAGCATCTTATCCGAGTGGAAGGAAATTTGCGTGTGGAGTATTTGGATGACAGAAACACTTTTCG
+  522  ./dna-nt_ATcount.py GATGGGATTGGGGTTTTCCCCTCCCATGTGCTCAAGACTGGCGCTAAAAGTTTTGAGCTTCTCAAAAGTCTAGAGCCACCGTCCAGGGAGCAGGTAGCTGCTGGGCTCCGGGGACACTTTGCGTTCGGGCTGGGAGCGTGCTTTCCACGACGGTGACACGCTTCCCTGGATTGGCAGCCAGACTGCCTTCCGGGTCACTGCCATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGCCCCCTCTGAGTCAGGAAACATTTTCAGACCTATGGAAACTACTTCCTGAAAACAACGTTCTGTCCCCCTTGCCGTCCCAAGCAATGGATGATTTGATGCTGTCCCCGGACGATATTGAACAATGGTTCACTGAAGACCCAGGTCCAGATGAAGCTCCCAGAATTCGCCAGAGGCTGCTCCCCCCGTGGCCCCTGCACCAGCAGCTCCTACACCGGCGGCCCCTGCACCAGCCCCCTCCTGGCCCCTGTCATCTTCTGTCCCTTCCCAGAAAACCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGGGACAGCCAAGTCTGTGACTTGCACGTACTCCCCTGCCCTCAACAAGATGTTTTGCCAACTGGCCAAGACCTGCCCTGTGCAGCTGTGGGTTGATTCCACACCCCCGCCCGGCACCCGCGTCCGCGCCATGGCCATCTACAAGCAGTCACAGCACATGACGGAGGTTGTGAGGCGCTGCCCCCACCATGAGCGCTGCTCAGATAGCGATGGTCTGGCCCCTCCTCAGCATCTTATCCGAGTGGAAGGAAATTTGCGTGTGGAGTATTTGGATGACAGAAACACTTTTCG
+  523  ./dna-nt_count.py CTGGGCTCCGGGGACACTTTGCGTTCGGGCTGGGAGCGTGCTTTCCACGACGGTGACACGCTTCCCTGGATTGGCAGCCAGACTGCCTTCCGGGTCACTGC
+  524  vi dna-revcomp.py
+  525  cp dna-nt_count.py dna-revcomp.py
+  526  vi dna-revcomp.py 
+  527  ls
+  528  cp dna-nt_RNA.py dna-revcomp.py 
+  529  vi dna-revcomp.py 
+  530  ./dna-revcomp.py ATGCAGGGGAAACATGATTCAGGAC
+  531  vi dna-revcomp.py 
+  532  ./dna-revcomp.py ATGCAGGGGAAACATGATTCAGGAC
+  533  ./dna-revcomp.py GATGGGATTggggttttccccTCCCATGTGCTCAAGACTGGCGCTaaaaGttttGAGCTTCTCaaaaGTCTAGAGCCACCGTCCAGGGAGCAGGTAGCTGCTGGGCTCCggggACACTTTGCGTTCGGGCTGGGAGCGTGCTTTCCACGACGGTGACACGCTTCCCTGGATTGGCAGCCAGACTGCCTTCCGGGTCACTGCCATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGccccCTCTGAGTCAGGAAACAttttCAGACCTATGGAAACTACTTCCTGaaaaCAACGTTCTGTccccCTTGCCGTCCCAAGCAATGGATGATTTGATGCTGTccccGGACGATATTGAACAATGGTTCACTGAAGACCCAGGTCCAGATGAAGCTCCCAGAATTCGCCAGAGGCTGCTccccCCGTGGccccTGCACCAGCAGCTCCTACACCGGCGGccccTGCACCAGccccCTCCTGGccccTGTCATCTTCTGTCCCTTCCCAGaaaaCCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGGGACAGCCAAGTCTGTGACTTGCACGTACTccccTGCCCTCAACAAGATGttttGCCAACTGGCCAAGACCTGCCCTGTGCAGCTGTGGGTTGATTCCACAccccCGCCCGGCACCCGCGTCCGCGCCATGGCCATCTACAAGCAGTCACAGCACATGACGGAGGTTGTGAGGCGCTGccccCACCATGAGCGCT
+  534  vi dna-revcomp.py 
+  535  vi dna-ecor1.py
+  536  ./dna-ecor1.py GATGGGATTggggttttccccTCCCATGTGCTCAAGACTGGCGCTaaaaGttttGAGCTTCTCaaaaGTCTAGAGCCACCGTCCAGGGAGCAGGTAGCTGCTGGGCTCCggggACACTTTGCGTTCGGGCTGGGAGCGTGCTTTCCACGACGGTGACACGCTTCCCTGGATTGGCAGCCAGACTGCCTTCCGGGTCACTGCCATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGccccCTCTGAGTCAGGAAACAttttCAGACCTATGGAAACTACTTCCTGaaaaCAACGTTCTGTccccCTTGCCGTCCCAAGCAATGGATGATTTGATGCTGTccccGGACGATATTGAACAATGGTTCACTGAAGACCCAGGTCCAGATGAAGCTCCCAGAATTCGCCAGAGGCTGCTccccCCGTGGccccTGCACCAGCAGCTCCTACACCGGCGGccccTGCACCAGccccCTCCTGGccccTGTCATCTTCTGTCCCTTCCCAGaaaaCCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGGGACAGCCAAGTCTGTGACTTGCACGTACTccccTGCCCTCAACAAGATGttttGCCAACTGGCCAAGACCTGCCCTGTGCAGCTGTGGGTTGATTCCACAccccCGCCCGGCACCCGCGTCCGCGCCATGGCCATCTACAAGCAGTCACAGCACATGACGGAGGTTGTGAGGCGCTGccccCACCATGAGCGCT
+  537  vi dna-ecor1.py
+  538  ./dna-ecor1.py GATGGGATTggggttttccccTCCCATGTGCTCAAGACTGGCGCTaaaaGttttGAGCTTCTCaaaaGTCTAGAGCCACCGTCCAGGGAGCAGGTAGCTGCTGGGCTCCggggACACTTTGCGTTCGGGCTGGGAGCGTGCTTTCCACGACGGTGACACGCTTCCCTGGATTGGCAGCCAGACTGCCTTCCGGGTCACTGCCATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGccccCTCTGAGTCAGGAAACAttttCAGACCTATGGAAACTACTTCCTGaaaaCAACGTTCTGTccccCTTGCCGTCCCAAGCAATGGATGATTTGATGCTGTccccGGACGATATTGAACAATGGTTCACTGAAGACCCAGGTCCAGATGAAGCTCCCAGAATTCGCCAGAGGCTGCTccccCCGTGGccccTGCACCAGCAGCTCCTACACCGGCGGccccTGCACCAGccccCTCCTGGccccTGTCATCTTCTGTCCCTTCCCAGaaaaCCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGGGACAGCCAAGTCTGTGACTTGCACGTACTccccTGCCCTCAACAAGATGttttGCCAACTGGCCAAGACCTGCCCTGTGCAGCTGTGGGTTGATTCCACAccccCGCCCGGCACCCGCGTCCGCGCCATGGCCATCTACAAGCAGTCACAGCACATGACGGAGGTTGTGAGGCGCTGccccCACCATGAGCGCT
+  539  vi dna-ecor1.py
+  540  ./dna-ecor1.py GATGGGATTggggttttccccTCCCATGTGCTCAAGACTGGCGCTaaaaGttttGAGCTTCTCaaaaGTCTAGAGCCACCGTCCAGGGAGCAGGTAGCTGCTGGGCTCCggggACACTTTGCGTTCGGGCTGGGAGCGTGCTTTCCACGACGGTGACACGCTTCCCTGGATTGGCAGCCAGACTGCCTTCCGGGTCACTGCCATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGccccCTCTGAGTCAGGAAACAttttCAGACCTATGGAAACTACTTCCTGaaaaCAACGTTCTGTccccCTTGCCGTCCCAAGCAATGGATGATTTGATGCTGTccccGGACGATATTGAACAATGGTTCACTGAAGACCCAGGTCCAGATGAAGCTCCCAGAATTCGCCAGAGGCTGCTccccCCGTGGccccTGCACCAGCAGCTCCTACACCGGCGGccccTGCACCAGccccCTCCTGGccccTGTCATCTTCTGTCCCTTCCCAGaaaaCCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGGGACAGCCAAGTCTGTGACTTGCACGTACTccccTGCCCTCAACAAGATGttttGCCAACTGGCCAAGACCTGCCCTGTGCAGCTGTGGGTTGATTCCACAccccCGCCCGGCACCCGCGTCCGCGCCATGGCCATCTACAAGCAGTCACAGCACATGACGGAGGTTGTGAGGCGCTGccccCACCATGAGCGCT
+  541  vi dna-ecor1.py
+  542  vi dna-ecor1.py
+  543  ./dna-ecor1.py GATGGGATTggggttttccccTCCCATGTGCTCAAGACTGGCGCTaaaaGttttGAGCTTCTCaaaaGTCTAGAGCCACCGTCCAGGGAGCAGGTAGCTGCTGGGCTCCggggACACTTTGCGTTCGGGCTGGGAGCGTGCTTTCCACGACGGTGACACGCTTCCCTGGATTGGCAGCCAGACTGCCTTCCGGGTCACTGCCATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGccccCTCTGAGTCAGGAAACAttttCAGACCTATGGAAACTACTTCCTGaaaaCAACGTTCTGTccccCTTGCCGTCCCAAGCAATGGATGATTTGATGCTGTccccGGACGATATTGAACAATGGTTCACTGAAGACCCAGGTCCAGATGAAGCTCCCAGAATTCGCCAGAGGCTGCTccccCCGTGGccccTGCACCAGCAGCTCCTACACCGGCGGccccTGCACCAGccccCTCCTGGccccTGTCATCTTCTGTCCCTTCCCAGaaaaCCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGGGACAGCCAAGTCTGTGACTTGCACGTACTccccTGCCCTCAACAAGATGttttGCCAACTGGCCAAGACCTGCCCTGTGCAGCTGTGGGTTGATTCCACAccccCGCCCGGCACCCGCGTCCGCGCCATGGCCATCTACAAGCAGTCACAGCACATGACGGAGGTTGTGAGGCGCTGccccCACCATGAGCGCT
+  544  vi dna-ecor1.py
+  545  ./dna-ecor1.py GATGGGATTggggttttccccTCCCATGTGCTCAAGACTGGCGCTaaaaGttttGAGCTTCTCaaaaGTCTAGAGCCACCGTCCAGGGAGCAGGTAGCTGCTGGGCTCCggggACACTTTGCGTTCGGGCTGGGAGCGTGCTTTCCACGACGGTGACACGCTTCCCTGGATTGGCAGCCAGACTGCCTTCCGGGTCACTGCCATGGAGGAGCCGCAGTCAGATCCTAGCGTCGAGccccCTCTGAGTCAGGAAACAttttCAGACCTATGGAAACTACTTCCTGaaaaCAACGTTCTGTccccCTTGCCGTCCCAAGCAATGGATGATTTGATGCTGTccccGGACGATATTGAACAATGGTTCACTGAAGACCCAGGTCCAGATGAAGCTCCCAGAATTCGCCAGAGGCTGCTccccCCGTGGccccTGCACCAGCAGCTCCTACACCGGCGGccccTGCACCAGccccCTCCTGGccccTGTCATCTTCTGTCCCTTCCCAGaaaaCCTACCAGGGCAGCTACGGTTTCCGTCTGGGCTTCTTGCATTCTGGGACAGCCAAGTCTGTGACTTGCACGTACTccccTGCCCTCAACAAGATGttttGCCAACTGGCCAAGACCTGCCCTGTGCAGCTGTGGGTTGATTCCACAccccCGCCCGGCACCCGCGTCCGCGCCATGGCCATCTACAAGCAGTCACAGCACATGACGGAGGTTGTGAGGCGCTGccccCACCATGAGCGCT
+  546  cd ..
+  547  cd ..
+  548  cd H
+  549  cd HistoryLogs/
+  550  cd HistoryLogs/
+  551  ls
+  552  history > D3M-python03.history.txt

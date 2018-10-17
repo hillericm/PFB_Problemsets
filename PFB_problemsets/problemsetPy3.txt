@@ -1,0 +1,24 @@
+1. Tuples, lists, and strings are sequences.
+2. dnaQ2 = '''copied seq''' len(dnaQ2) = 842 
+ It is a python sequence but must be made a string with quotations.
+4. dnaQ2.count('NT') 167 A, 187 T, 218 G, 270 C
+6. See dna-nt_count.py There are 167 A, 218 G, 270 C, and 187 T.
+7/8. See dna-nt_RNA.py 
+gaugggauugggguuuuccccucccaugugcucaagacuggcgcuaaaaguuuugagcuucucaaaagucuagagccaccguccagggagcagguagcugcugggcuccggggacacuuugcguucgggcugggagcgugcuuuccacgacggugacacgcuucccuggauuggcagccagacugccuuccgggucacugccauggaggagccgcagucagauccuagcgucgagcccccucugagucaggaaacauuuucagaccuauggaaacuacuuccugaaaacaacguucugucccccuugccgucccaagcaauggaugauuugaugcuguccccggacgauauugaacaaugguucacugaagacccagguccagaugaagcucccagaauucgccagaggcugcuccccccguggccccugcaccagcagcuccuacaccggcggccccugcaccagcccccuccuggccccugucaucuucugucccuucccagaaaaccuaccagggcagcuacgguuuccgucugggcuucuugcauucugggacagccaagucugugacuugcacguacuccccugcccucaacaagauguuuugccaacuggccaagaccugcccugugcagcuguggguugau
+9. See dna-nt_ATcount.py and dna-nt_GCcount.py
+The GC content of the submitted sequence is 57.95724465558195.
+The AT content of the submitted sequence is 42.042755344418055.
+10.dnaQ2[99:200] 
+'GCTGGGCTCCGGGGACACTTTGCGTTCGGGCTGGGAGCGTGCTTTCCACGACGGTGACACGCTTCCCTGGATTGGCAGCCAGACTGCCTTCCGGGTCACTGC'
+11. 35 G
+12 dnaQ2_fix = dnaQ2.lower()
+dnaQ2_fix[99:200]
+13. see dna-revcomp.py
+14 The EcoR1 site starts at nucleotide 396 and ends at nucleotide 401.
+see dna-ecor1.py
+
+
+
+ecor1
+G'AATTC
+CTTAA'G d
