@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
-import sys
 
 fav = {'food':'jellybeans', 'book':'No Clue', 'organism':'Nematostella'}
+fav_keys = list(fav.keys())
 
-print(fav['book'])
+print('I have many favorite things, including:', fav_keys[0], fav_keys[1], fav_keys[2])
 
-input(fav)
+str = input('Enter one of these to see my favorite:')
+print('My favorite', str ,'is ', fav[str]) 
 
 
-for thing in fav:
-	print(thing,fav[thing])
+
 
 
 
