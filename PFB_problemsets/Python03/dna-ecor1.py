@@ -8,8 +8,8 @@ ecor1 = 'gaattc'
 
 replaceEcor1 = dna_fix.replace(ecor1,'XXXXXX') 
 
-ecor1StartLoc = (replaceEcor1.find('XXXXXX')+1)
-ecor1EndLoc = (replaceEcor1.find('XXXXXX')+6)
+ecor1StartLoc = (dna_fix.find(ecor1)+1)
+ecor1EndLoc = (dna_fix.find(ecor1)+6)
 
 intro = 'The EcoR1 site starts at nucleotide {} and ends at nucleotide {}.'
 
