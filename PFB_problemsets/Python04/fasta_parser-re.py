@@ -9,17 +9,20 @@ with open('Python_07_ApoI.fasta', 'r') as dna:
 	for line in dna:
 		seq.append(line)
 		finalstring = ''.join(seq)
-		print(finalstring)	
-	print(finalstring)
-	print(type(finalstring))
-	for entry in re.finditer(r'(^\>\S+)([^>].+)', finalstring):
+	for entry in re.finditer(r'(^\>\S+)', finalstring):
 		ID = entry.group(1)
-		seq.append((entry.group(2)).rstrip())
-		sequence = ''.join(seq)
-
-		seqs[ID] = sequence
+		sequence = entry.group(0).replace(entry.group(1), '')
 
 print(ID)
-print(finalstring)
+print(sequence)
+#	for entry in re.finditer(r'([^(^\>\S+?)])', finalstring):
+#		sequence = entry.group(1)
+#		finalstring
+#		print(sequence)
+#	''.join(entry.split('\n'))
+
+
+#		seqs[ID] = sequence
+
 #print(sequence)
 #print(seqs)
