@@ -17,6 +17,8 @@ with open('Python_07_ApoI.fasta', 'r') as dna:
 			finalstring = ''.join(seq)
 
 			seqs[ID] = finalstring
+apoI = re.sub(r'([GA])AATT([CT])', r'\1^AATT\2', finalstring)
+print(apoI)
 
-for match in re.finditer(r'([GA]AATT[CT])',finalstring):
-	print(match.group(1), (match.start(1)+1)) 
+#for match in re.finditer(r'([GA]AATT[CT])',finalstring):
+#	print(match.group(1), (match.start(1)+1)) 

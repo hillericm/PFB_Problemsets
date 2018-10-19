@@ -18,5 +18,6 @@ with open('Python_07_ApoI.fasta', 'r') as dna:
 
 			seqs[ID] = finalstring
 
-for match in re.finditer(r'([GA]AATT[CT])',finalstring):
-	print(match.group(1), (match.start(1)+1)) 
+print(ID)
+print(finalstring)
+print(seqs)
