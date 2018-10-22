@@ -1,0 +1,5 @@
+CD Profiles and HMM Profiles
+
+1 - CD Search = GDP-mannose domain; HMMSCAN - GDP-mannose domain, NAD-dependent deydratase, RmID Substrate binding domain; PSI Search = GDP-mannose domain from 500 different bacteria (ecoli at the top)
+
+This is taking too long and I don't think we have been given the correct inputs. 

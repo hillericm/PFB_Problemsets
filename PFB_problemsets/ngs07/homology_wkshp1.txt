@@ -1,0 +1,32 @@
+Matrices
+1 - Highest scores - PAM30 = 13, PAM70 = 13, PAM250 = 17
+2 - W/W match - PAM30 = 13, PAM70 = 13, PAM250 = 17
+3 - W/G mismatch - PAM30 = -15, PAM70 = -10, PAM250 = -7
+
+FASTA
+1 - 209 aa
+2 - 13144 sequences
+3 - BLOSUM50 matrix (15:-5)xS, open/ext: -10/-2
+4 - gap penalty is 10 for starting gap and 2 for extending a gap
+	ex - 1 aa gap => -12, 2 aa gap => -14
+5 - Numbers are scores of the search. Best for homology is e-value.
+6 - Alignment of top hit, self is (1-209:1-209) next hit is (4-199:6-210)
+7 - Highest scoring non-homolog is P09457 Yeat ATP Synthase
+	I would confirm this by reciporical BLAST. Reciporical blast brought
+	back only members of the ATP synthase family in various species.
+8 - Reciporical test of P0ACA5 (stringent starvation protein A) against PIR returned human, maize, and Drosophila GST1 genes. Highly suggestive of a homolog. Swissprot BLAST of P0ACA5 returned SSPA genes in other bacteria as well as GST1 genes in eukaryotes.
+9 -   Reciporical blast or PRSS of these genes would confirm homology.
+10 - 
+11 - evalue decreases as penalties become more and matrices become more restricted.
+12 - evalue increases for distant homologs as penalties increase and matrices become more 
+13 - highest non-related homolog can change. Also as gap penalties increase a small number of long gaps receives fewer penalties than a large number of small gaps.
+
+BLAST
+1 - 209 aa
+2 - 470,882
+3 - BLOSUM62 
+4 - 11,1
+5 - disulfide-oxireductase P77526.1
+6 - evalue is much higher in blastp, alignment region is longer
+
+
