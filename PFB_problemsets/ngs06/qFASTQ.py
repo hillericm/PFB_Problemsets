@@ -12,9 +12,20 @@ for entry in SeqIO.parse('four_reads.fastq', 'fastq'):
 			QC30 += 1
 		
 	print(entry.id)
-	print(entry.seq)
 	print(QC30)
 
+
+
+
+for entry in SeqIO.parse('four_reads.fastq', 'fastq'):
+	fastq_entry = entry.letter_annotations['phred_quality']
+	trim_seq = entry.seq[5::]
+	trim_qual = fastq_entry[5::]
+	
+	print(entry.id)
+	print(fastq_entry)
+	print(trim_qual)	
+	
 
 #	print('ID', entry,'seq',fastq_entry)
 #	print(fast_dict)
