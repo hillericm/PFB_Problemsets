@@ -13,10 +13,11 @@ for entry in fasta_dict:
 sorted_length_list = sorted(fasta_length_list)[::-1]
 #print(sorted_length_list)
 
-genome_size = 4600000
+genome_size = sum(sorted_length_list)
+print(genome_size)
 sorted_for_N50 = []
 for entry in sorted_length_list:
-	if genome_size >= 2300000:
+	if genome_size >= (sum(sorted_length_list)/2):
 		genome_size -= entry
 		sorted_for_N50.append(entry)
 
